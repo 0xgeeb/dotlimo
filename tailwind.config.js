@@ -6,7 +6,11 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-
+    extend: {
+      fontFamily: {
+        inter: ['var(--font-inter)']
+      }
+    }
   },
   plugins: [],
 }

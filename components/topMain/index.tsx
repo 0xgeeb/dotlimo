@@ -2,14 +2,12 @@ export const TopMain = () => {
   return (
     <div className="h-[50%] flex flex-row pt-[3%]">
       <div className="w-[50%]">
-        <div className="relative overflow-hidden">
-          <img className="rounded-xl" src="./bg2.png" alt="bg" />
-          <img className="bottom-0 left-[40%] absolute h-[150px] w-[150px]" src="./transparent_pfp.png" alt="pfp" id="avatar"/>
-        </div>
-        <p className="text-slate-300 pt-[2%]">yo im geeb.eth, I'm a full-stack and solidity developer that enjoys building cool shit. I also like defi, memes, video games, anime, rap and kpop.</p>
+        <img className="rounded-xl" src="./main_pic.png" alt="bg" />
+        <p className="text-slate-300 pt-[3%]">yo im geeb.eth I like building cool shit</p>
       </div>
-      <div className="w-[50%]">
-        <img className="mx-auto mt-[10%]" src="./geebanimals.png" alt="animals" />
+      <div className="w-[50%] lg:my-auto">
+        <img className="mx-auto" src="./geebanimals.png" alt="animals" />
+        <a href="https://github.com/0xgeeb" target="blank"><div className="bg-[#eb8d29] text-[1.3rem] text-center text-white py-1 w-[25%] mx-auto mt-[5%] rounded-md hover:scale-125 cursor-pointer" id="github-button">github</div></a>
       </div>
     </div>
   )
