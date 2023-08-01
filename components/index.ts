@@ -1,0 +1,5 @@
+export * from './nav'
+export * from './main'
+export * from './topMain'
+export * from './projects'
+export * from './socials'

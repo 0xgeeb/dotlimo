@@ -1,5 +1,10 @@
+import { Nav, Main } from "../components"
+
 export default function Page() {
   return (
-    <div>hello</div>
+    <div className="h-screen w-screen">
+      <Nav />
+      <Main />
+    </div>
   )
 }
