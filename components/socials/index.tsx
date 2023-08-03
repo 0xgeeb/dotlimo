@@ -1,8 +1,8 @@
 export const Socials = () => {
   return (
-    <div className="flex flex-col w-[50%]">
+    <div className="flex flex-col mx-auto w-[90%] sm:w-[40%] lg:w-[50%] pt-[5%] sm:pt-[0%]">
       <h1 className="text-[1.5rem] text-slate-300 font-bold mx-auto">socials</h1>
-      <div className="pt-[5%] pl-[35%] flex flex-col gap-2">
+      <div className="pt-[5%] pl-[25%] sm:pl-[35%] flex flex-col gap-2">
         <div className="flex flex-row">
           <svg className="mr-[15%]" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .02c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.99 6.98l-6.99 5.666-6.991-5.666h13.981zm.01 10h-14v-8.505l7 5.673 7-5.672v8.504z" fill="#cbd5e1"/></svg>
           <p className="text-slate-300">0xgeeb@gmail.com</p>
