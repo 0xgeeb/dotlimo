@@ -1,3 +1,5 @@
+"use client"
+
 import { Nav, Main } from "../components"
 
 export default function Page() {
